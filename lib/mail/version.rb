@@ -20,5 +20,5 @@ module Mail
       STRING
     end
     
-  end
+  end unless const_defined?(:VERSION)
 end
